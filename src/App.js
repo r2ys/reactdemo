@@ -20,9 +20,26 @@ class App extends Component {
             Learn React
           </a>
         </header>
+          <a href="https://elasticjob.cn">elasticjob</a>
       </div>
     );
   }
 }
+
+// class HelloMessage extends React.Component {
+//   render() {
+//     return (
+//         <div>
+//           Hello {this.props.name}
+//         </div>
+//     );
+//   }
+// }
+//
+// ReactDOM.render(
+//     <HelloMessage name="Taylor" />,
+//     document.getElementById('hello-example')
+// );
+
 
 export default App;
